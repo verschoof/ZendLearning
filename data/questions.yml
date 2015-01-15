@@ -1,0 +1,104 @@
+categories:
+  PHP Basics:
+    - { label: "Syntax", link: "language.basic-syntax.php"}
+    - { label: "Operators", link: "language.operators.php"}
+    - { label: "Variables", link: "language.variables.php"}
+    - { label: "Constants", link: "language.constants.php"}
+    - { label: "Control Structures", link: "language.control-structures.php"}
+    - { label: "Language Constructs", link: "#"}
+    - { label: "Functions", link: "language.functions.php"}
+    - { label: "Namespaces", link: "language.namespaces.php"}
+    - { label: "Extensions", link: "language.exceptions.php"}
+    - { label: "Config ", link: "#"}
+    - { label: "Performance/bytecode caching", link: "#"}
+  Functions:
+    - { label: "Arguments", link: "functions.arguments.php"}
+    - { label: "Variables", link: "functions.variable-functions.php"}
+    - { label: "References", link: "funcref.php"}
+    - { label: "Returns", link: "function.return.php"}
+    - { label: "Variable Scope", link: "language.variables.scope.php"}
+    - { label: "Anonymous Functions, closures", link: "functions.anonymous.php"}
+  Data Format & Types:
+    - { label: "XML Basics", link: "#"}
+    - { label: "SimpleXML", link: "book.simplexml.php"}
+    - { label: "XML Extension", link: "book.xml.php"}
+    - { label: "Xpath", link: "simplexmlelement.xpath.php"}
+    - { label: "Webservices Basics", link: "refs.webservice.php"}
+    - { label: "SOAP", link: "book.soap.php"}
+    - { label: "REST", link: "#"}
+    - { label: "JSON", link: "book.json.php"}
+    - { label: "AJAX", link: "http://www.w3schools.com/php/php_ajax_php.asp"}
+    - { label: "DateTime", link: "book.datetime.php"}
+    - { label: "DOMDocument", link: "class.domdocument.php"}
+  Web Features:
+    - { label: "Sessions", link: "ref.session.php"}
+    - { label: "Forms", link: "http://www.w3schools.com/html/html_forms.asp"}
+    - { label: "GET and POST data", link: "#"}
+    - { label: "Cookies", link: "features.cookies.php"}
+    - { label: "HTTP Headers", link: "#"}
+    - { label: "HTTP Authentication", link: "features.http-auth.php"}
+    - { label: "HTTP Status Codes", link: "#"}
+  I/O:
+    - { label: "Files", link: "features.file-upload.php"}
+    - { label: "Reading", link: "function.fread.php"}
+    - { label: "Writing", link: "function.fwrite.php"}
+    - { label: "File System Functions", link: "ref.filesystem.php"}
+    - { label: "Streams", link: "book.stream.php"}
+    - { label: "Contexts", link: "stream.contexts.php"}
+  Object Oriented Programming:
+    - { label: "Instantiation", link: "#"}
+    - { label: "Modifiers/Inheritance", link: "#"}
+    - { label: "Interfaces", link: "#"}
+    - { label: "Exceptions", link: "#"}
+    - { label: "Static Methods &amp; Properties", link: "#"}
+    - { label: "Autoload", link: "#"}
+    - { label: "Reflection", link: "#"}
+    - { label: "Type Hinting", link: "#"}
+    - { label: "Class Constants", link: "#"}
+    - { label: "Late Static Binding", link: "#"}
+    - { label: "Magic (_*) Methods", link: "#"}
+    - { label: "Instance Methods &amp; Properties", link: "#"}
+    - { label: "Class Definition", link: "#"}
+    - { label: "SPL", link: "#"}
+    - { label: "Traits", link: "#"}
+  Security:
+    - { label: "Configuration", link: "#"}
+    - { label: "Session Security", link: "#"}
+    - { label: "Cross-Site Scripting", link: "#"}
+    - { label: "Cross-Site Request Forgeries", link: "#"}
+    - { label: "SQL Injection", link: "#"}
+    - { label: "Remote Code Injection", link: "#"}
+    - { label: "Email Injection", link: "#"}
+    - { label: "Filter Input", link: "#"}
+    - { label: "Escape Output", link: "#"}
+    - { label: "Encryption, Hashing algorithms", link: "#"}
+    - { label: "File uploads", link: "#"}
+    - { label: "Data storage", link: "#"}
+    - { label: "SSL", link: "#"}
+    - { label: "HP Configuration", link: "#"}
+    - { label: "Password hashing API", link: "#"}
+  Strings & Patterns:
+    - { label: "Quoting", link: "#"}
+    - { label: "Matching", link: "#"}
+    - { label: "Extracting", link: "#"}
+    - { label: "Searching", link: "#"}
+    - { label: "Replacing", link: "#"}
+    - { label: "Formatting", link: "#"}
+    - { label: "PCRE", link: "#"}
+    - { label: "HEREDOC and NOWDOC", link: "#"}
+    - { label: "Encodings", link: "#"}
+  Databases:
+    - { label: "SQL", link: "#"}
+    - { label: "Joins", link: "#"}
+    - { label: "Analyzing Queries", link: "#"}
+    - { label: "Prepared Statements", link: "#"}
+    - { label: "Transactions", link: "#"}
+    - { label: "PDO", link: "#"}
+  Arrays:
+    - { label: "Enumerated Arrays", link: "#"}
+    - { label: "Associative Arrays", link: "#"}
+    - { label: "Array Iteration", link: "#"}
+    - { label: "Multi-Dimensional Arrays", link: "#"}
+    - { label: "Array Functions", link: "#"}
+    - { label: "SPL, Objects as arrays", link: "#"}
+    - { label: "Casting", link: "#"}

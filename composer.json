@@ -1,0 +1,14 @@
+{
+    "name": "verschoof/zend-learning",
+    "description": "A simple page of all the topics for the Zend PHP5 Certification",
+    "require": {
+        "symfony/yaml": "~2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mitchel Verschoof",
+            "email": "mitchel@verschoof.net"
+        }
+    ]
+}

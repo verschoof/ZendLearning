@@ -1,0 +1,35 @@
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.done{
+    color: #2BBF26;
+}
+
+.dotted-line {
+    border-top: 1px #000000 dotted;
+    margin-bottom: 20px;
+}
+
+.question-list .category {
+    float: left;
+    width: 32%;
+}
+
+.question-list .category .header {
+    font-weight: bold;
+}
+
+.question-list .category .no-link {
+    color: #BF2626;
+}
+
+.question-list .category .done,
+.question-list .category .done a{
+    color: #2BBF26;
+}
