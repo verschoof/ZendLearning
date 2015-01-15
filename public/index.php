@@ -3,8 +3,18 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use Symfony\Component\Yaml\Parser;
+use Symfony\Component\Filesystem\Filesystem;
 
 $yaml = new Parser();
+$fs   = new Filesystem();
+
+if (!$fs->exists(__DIR__ . '/../data/config.yml')) {
+    exit(sprintf('Missing "%s", copy the config file.', realpath(__DIR__ . '/../data') . '/config.yml'));
+}
+
+if (!$fs->exists(__DIR__ . '/../data/userdata.json')) {
+    $fs->dumpFile(__DIR__ . '/../data/userdata.json', '[]');
+}
 
 $questions  = $yaml->parse(file_get_contents(__DIR__ . '/../data/questions.yml'));
 $categories = $questions['categories'];
@@ -14,8 +24,11 @@ $config     = $configYaml['config'];
 
 $userData = json_decode(file_get_contents(__DIR__ . '/../data/userdata.json'));
 ?>
+
 <html>
     <head>
+        <title>Exam Information- PHP5</title>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="js/application.js" type="text/javascript"></script>
 
