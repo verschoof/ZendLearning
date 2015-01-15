@@ -12,6 +12,8 @@ Clone the project:
 
 Copy `data/config.yml.dist` to `data/config.yml`.
 
+Do Composer install `composer install`
+
 Run `php -S localhost:8080` in the `public` directory and browse to `http://localhost:8080`.
 
 # ToDo
