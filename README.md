@@ -1,5 +1,7 @@
 # ZendLearning
-A simple page of all the topics for the Zend PHP5 Certification
+A simple page of all the topics for the Zend PHP5 Certification.
+
+**Warning**: This is not code is not for production, just a quick setup to have a list what to lean for your PHP5 certification.
 
 # How to start
 
