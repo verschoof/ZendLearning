@@ -1,19 +1,20 @@
 # ZendLearning
-A simple page of all the topics for the Zend PHP5 Certification.
 
-**Warning**: This is not code is not for production, just a quick setup to have a list what to lean for your PHP5 certification.
+A simple page of all the topics for the Zend PHP5 Certification, including links to documentation.
+
+**Warning**: This is not code meant for production, just a quick setup to have a list of what to learn for your PHP5 certification.
 
 # How to start
 
-Clone the project
+Clone the project:
 
     git clone git@github.com:verschoof/ZendLearning.git zend-learning 
 
-Copy the `data/config.yml.dist` to `data/config.yml.dist`.
+Copy `data/config.yml.dist` to `data/config.yml`.
 
-Run `php -S localhost:8080` in 'public' directory and go to `http://localhost:8080`
+Run `php -S localhost:8080` in the `public` directory and browse to `http://localhost:8080`.
 
 # ToDo
 
-- In the `data/questsion.yml` are still a lot of questions that doesn't have any link.
-- The links only support php manual links, there are now a few links that go to other websites then php.net 
+- In `data/questions.yml` there are still a lot of questions that don't have a link.
+- The links only support the PHP manual website, but some links point to other websites (which don't function at the moment).
