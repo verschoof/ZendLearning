@@ -3,10 +3,8 @@ categories:
     - { label: "Syntax", link: "language.basic-syntax.php"}
     - { label: "Operators", link: "language.operators.php"}
     - { label: "Variables", link: "language.variables.php"}
-    - { label: "Constants", link: "language.constants.php"}
     - { label: "Control Structures", link: "language.control-structures.php"}
     - { label: "Language Constructs", link: "internals2.structure.basics.php"}
-    - { label: "Functions", link: "language.functions.php"}
     - { label: "Namespaces", link: "language.namespaces.php"}
     - { label: "Extensions", link: "language.exceptions.php"}
     - { label: "Config ", link: "configuration.file.php"}
@@ -22,12 +20,9 @@ categories:
     - { label: "XML Basics", link: "book.xml.php"}
     - { label: "SimpleXML", link: "book.simplexml.php"}
     - { label: "XML Extension", link: "book.xml.php"}
-    - { label: "Xpath", link: "simplexmlelement.xpath.php"}
     - { label: "Webservices Basics", link: "refs.webservice.php"}
     - { label: "SOAP", link: "book.soap.php"}
-    - { label: "REST", link: "#"}
     - { label: "JSON", link: "book.json.php"}
-    - { label: "AJAX", link: "http://www.w3schools.com/php/php_ajax_php.asp"}
     - { label: "DateTime", link: "book.datetime.php"}
     - { label: "DOMDocument", link: "class.domdocument.php"}
   Web Features:
@@ -50,7 +45,6 @@ categories:
     - { label: "Modifiers/Inheritance", link: "#"}
     - { label: "Interfaces", link: "language.oop5.interfaces.php"}
     - { label: "Exceptions", link: "language.exceptions.php"}
-    - { label: "Static Methods &amp; Properties", link: "#"}
     - { label: "Autoload", link: "language.oop5.autoload.php"}
     - { label: "Reflection", link: "book.reflection.php"}
     - { label: "Type Hinting", link: "language.oop5.typehinting.php"}
@@ -58,7 +52,6 @@ categories:
     - { label: "Late Static Binding", link: "language.oop5.late-static-bindings.php"}
     - { label: "Magic (_*) Methods", link: "language.oop5.magic.php"}
     - { label: "Instance Methods &amp; Properties", link: "#"}
-    - { label: "Class Definition", link: "language.oop5.basic.php"}
     - { label: "SPL", link: "book.spl.php"}
     - { label: "Traits", link: "language.oop5.traits.php"}
   Security:
@@ -73,9 +66,7 @@ categories:
     - { label: "Escape Output", link: "#"}
     - { label: "Encryption, Hashing algorithms", link: "#"}
     - { label: "File uploads", link: "#"}
-    - { label: "Data storage", link: "#"}
-    - { label: "SSL", link: "#"}
-    - { label: "HP Configuration", link: "#"}
+    - { label: "PHP Configuration", link: "#"}
     - { label: "Password hashing API", link: "#"}
   Strings & Patterns:
     - { label: "Quoting", link: "#"}
@@ -85,20 +76,17 @@ categories:
     - { label: "Replacing", link: "#"}
     - { label: "Formatting", link: "#"}
     - { label: "PCRE", link: "#"}
-    - { label: "HEREDOC and NOWDOC", link: "#"}
+    - { label: "NOWDOC", link: "#"}
     - { label: "Encodings", link: "#"}
   Databases:
     - { label: "SQL", link: "#"}
     - { label: "Joins", link: "#"}
-    - { label: "Analyzing Queries", link: "#"}
     - { label: "Prepared Statements", link: "#"}
     - { label: "Transactions", link: "#"}
     - { label: "PDO", link: "book.pdo.php"}
   Arrays:
-    - { label: "Enumerated Arrays", link: "#"}
     - { label: "Associative Arrays", link: "#"}
     - { label: "Array Iteration", link: "#"}
-    - { label: "Multi-Dimensional Arrays", link: "#"}
     - { label: "Array Functions", link: "#"}
     - { label: "SPL, Objects as arrays", link: "#"}
     - { label: "Casting", link: "#"}
