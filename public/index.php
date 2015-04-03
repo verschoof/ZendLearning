@@ -41,6 +41,8 @@ $userData = json_decode(file_get_contents(__DIR__ . '/../data/userdata.json'));
 <h2>Exam Information</h2>
 <small>(<a href="http://www.zend.com/en/services/certification/php-5-certification" target="_blank">http://www.zend.com/en/services/certification/php-5-certification</a>)</small><br>
 <br>
+<small>(* = not in the official ZCE program, but still good to know)</small><br>
+<br>
 
 <div class="question-list">
     <?php
