@@ -3,6 +3,7 @@ categories:
     - { label: "Syntax", link: "language.basic-syntax.php"}
     - { label: "Operators", link: "language.operators.php"}
     - { label: "Variables", link: "language.variables.php"}
+    - { label: "Constants *", link: "language.constants.php"}
     - { label: "Control Structures", link: "language.control-structures.php"}
     - { label: "Language Constructs", link: "internals2.structure.basics.php"}
     - { label: "Namespaces", link: "language.namespaces.php"}
@@ -45,6 +46,7 @@ categories:
     - { label: "Modifiers/Inheritance", link: "#"}
     - { label: "Interfaces", link: "language.oop5.interfaces.php"}
     - { label: "Exceptions", link: "language.exceptions.php"}
+    - { label: "Static Methods &amp; Properties *", link: "#"}
     - { label: "Autoload", link: "language.oop5.autoload.php"}
     - { label: "Reflection", link: "book.reflection.php"}
     - { label: "Type Hinting", link: "language.oop5.typehinting.php"}
